@@ -14,6 +14,13 @@ The owner's taste, written down so every project starts at expert level.
 | `styles/hyer-altitude.md` | White editorial, monumental bold grotesk, terracotta + midnight fields | Premium personal services, travel, concierge, consulting |
 | `styles/letters-cloudborne.md` | Powder-blue sky, rounded sans, white paper sculptures, 48px panels | Friendly productivity tools, templates, digital downloads |
 
+## Full original specs
+
+Where the owner supplied the complete guide, it is stored verbatim in
+`styles/full/` and takes priority over the condensed file:
+
+- `styles/full/letters-cloudborne.md`
+
 ## What every style in this library has in common (the "expert" layer)
 
 These are the habits that separate these references from template-looking work.

@@ -1,5 +1,7 @@
 # Letters — cloudborne everyday tools
 
+> Full original spec: `full/letters-cloudborne.md` (wins if anything differs).
+
 Inspiration only. Never reuse the name, logo, medical examples, testimonials, figures or pricing.
 
 ## Mood
