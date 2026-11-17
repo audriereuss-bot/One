@@ -13,6 +13,25 @@ digital-product layouts built from their own inspiration library.
    reason each, then proceed with the first unless told otherwise.
 4. For ebooks / PDFs / Canva work, also follow `design/ebook-adaptation.md`.
 
+## Craft skills (`.claude/skills/`, from emilkowalski/skills, MIT)
+
+The style files decide the *look*; these skills decide the *feel*. Use them on
+websites and landing pages (not on static PDFs/Canva pages):
+
+- Building motion (hero reveals, scroll-ins, hovers) → `animate`; several
+  elements moving together → `choreograph`. Style files' Motion sections give
+  the values; these skills give the rules (ease-out on enter, interruptible,
+  reduced-motion).
+- Before delivering any web page → `review-animations`, `break-ui` (long
+  names, empty states) and `mobile-native` (100vh, tap highlight, safe areas).
+- Too much motion → `remove-animations`; janky → `animation-performance`.
+- General UI polish questions → `emil-design-eng` or `apple-design`.
+- Comparing directions → `prototype` (variants behind a switcher).
+- End of a session where the owner corrected the design → offer `learn-taste`,
+  writing approved rules into the relevant `design/styles/` file or
+  `design/README.md` (not a separate DESIGN.md).
+- Unsure which → `ask-emil`.
+
 ## Non-negotiables
 
 - Never copy the source brands' names, logos, artwork, claims, prices,
