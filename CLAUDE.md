@@ -32,6 +32,12 @@ websites and landing pages (not on static PDFs/Canva pages):
   `design/README.md` (not a separate DESIGN.md).
 - Unsure which → `ask-emil`.
 
+## Reels / video editing
+
+Whenever an edit needs music, sound effects or B-roll, source it as described
+in `media/SOURCES.md` (Openverse for audio, Internet Archive "movies" for
+B-roll), using only commercial-and-modification licences and logging credits.
+
 ## Non-negotiables
 
 - Never copy the source brands' names, logos, artwork, claims, prices,
