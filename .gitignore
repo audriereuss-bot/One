@@ -1,0 +1,2 @@
+# Impeccable engine binary is downloaded per machine; never commit it.
+.claude/skills/impeccable/scripts/bin/

@@ -13,6 +13,47 @@ digital-product layouts built from their own inspiration library.
    reason each, then proceed with the first unless told otherwise.
 4. For ebooks / PDFs / Canva work, also follow `design/ebook-adaptation.md`.
 
+## Craft skills (`.claude/skills/`, from emilkowalski/skills, MIT)
+
+The style files decide the *look*; these skills decide the *feel*. Use them on
+websites and landing pages (not on static PDFs/Canva pages):
+
+- Building motion (hero reveals, scroll-ins, hovers) → `animate`; several
+  elements moving together → `choreograph`. Style files' Motion sections give
+  the values; these skills give the rules (ease-out on enter, interruptible,
+  reduced-motion).
+- Before delivering any web page → `review-animations`, `break-ui` (long
+  names, empty states) and `mobile-native` (100vh, tap highlight, safe areas).
+- Too much motion → `remove-animations`; janky → `animation-performance`.
+- General UI polish questions → `emil-design-eng` or `apple-design`.
+- Comparing directions → `prototype` (variants behind a switcher).
+- End of a session where the owner corrected the design → offer `learn-taste`,
+  writing approved rules into the relevant `design/styles/` file or
+  `design/README.md` (not a separate DESIGN.md).
+- Unsure which → `ask-emil`.
+
+### Impeccable (`.claude/skills/impeccable/`, pbakaus/impeccable, Apache 2.0)
+
+One skill with sub-commands, invoked as `/impeccable <command> <target>`:
+`critique` (scored UX review) and `audit` (accessibility, performance,
+responsive) before delivery; `polish`, `harden`, `typeset`, `layout`,
+`bolder` / `quieter`, `distill`, `clarify` to steer a page.
+
+- The owner's style library wins. If Impeccable's guidance conflicts with a
+  named style file in `design/styles/`, follow the style file.
+- `init` / `document` write `PRODUCT.md` / `DESIGN.md`. Base them on
+  `design/README.md` and the chosen style file rather than inventing a new
+  system, and keep `design/` as the master copy.
+- Its engine (`scripts/impeccable`) downloads a helper binary on first run.
+  Ask the owner before running it; if it isn't approved, use the skill's
+  "Launcher unavailable" path and read the reference files directly.
+
+## Reels / video editing
+
+Whenever an edit needs music, sound effects or B-roll, source it as described
+in `media/SOURCES.md` (Openverse for audio, Internet Archive "movies" for
+B-roll), using only commercial-and-modification licences and logging credits.
+
 ## Non-negotiables
 
 - Never copy the source brands' names, logos, artwork, claims, prices,
