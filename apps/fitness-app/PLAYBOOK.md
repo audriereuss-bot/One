@@ -70,9 +70,10 @@ Claude Code will:
 1. Turn the static screens into reusable components and real navigation.
 2. Add the logic (workout timer, logging sets, saving progress).
 3. Make it installable on a phone (PWA manifest, icons, offline).
-4. Run it and screenshot it at phone size; then `/impeccable audit` and
+4. Add the motion layer per `ANIMATION-PLAYBOOK.md`.
+5. Run it and screenshot it at phone size; then `/impeccable audit` and
    `break-ui` before handing over.
-5. Later: accounts and database (e.g. Supabase), coach dashboard, payments
+6. Later: accounts and database (e.g. Supabase), coach dashboard, payments
    (Stripe), and push reminders.
 
 ## Guardrails

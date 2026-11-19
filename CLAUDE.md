@@ -57,7 +57,9 @@ B-roll), using only commercial-and-modification licences and logging credits.
 ## Fitness app (future project)
 
 When the owner starts building their app, follow `apps/fitness-app/PLAYBOOK.md`
-(Google Stitch designs → Claude Code build, PWA first).
+(Google Stitch designs → Claude Code build, PWA first), and
+`apps/fitness-app/ANIMATION-PLAYBOOK.md` for motion (code-built animation, no
+AI-generated video).
 
 ## Non-negotiables
 
