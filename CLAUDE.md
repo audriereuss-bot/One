@@ -54,6 +54,13 @@ Whenever an edit needs music, sound effects or B-roll, source it as described
 in `media/SOURCES.md` (Openverse for audio, Internet Archive "movies" for
 B-roll), using only commercial-and-modification licences and logging credits.
 
+## Fitness app (future project)
+
+When the owner starts building their app, follow `apps/fitness-app/PLAYBOOK.md`
+(Google Stitch designs → Claude Code build, PWA first), and
+`apps/fitness-app/ANIMATION-PLAYBOOK.md` for motion (code-built animation, no
+AI-generated video).
+
 ## Non-negotiables
 
 - Never copy the source brands' names, logos, artwork, claims, prices,
